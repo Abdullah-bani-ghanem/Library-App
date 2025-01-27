@@ -1,13 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function Header() {
-    return (
-        <div style={{ background: "pink" }}>
-            header
-            <p>    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni nisi blanditiis, perspiciatis modi
-                laborum ducimus reiciendis beatae ullam quis veniam eligendi tempore repudiandae illo dolor, architecto pariatur
-                . Optio, corrupti esse.
-            </p>
-        </div>
-    )
+function Header() {
+  return (
+    <header style={{ backgroundColor: '#f4f4f4', padding: '1rem', textAlign: 'center' }}>
+      <h1>Library Management App</h1>
+    </header>
+  );
 }
+
+export default Header;

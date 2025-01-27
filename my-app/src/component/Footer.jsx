@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default function Footer() {
+function Footer() {
   return (
-  <div style={{marginTop:"17rem"}}>
-      <div style={{background:"gray"}}>
-      footer
-    </div>
-  
-  </div>
-  )
+    <footer style={{ backgroundColor: '#f4f4f4', padding: '1rem', textAlign: 'center', marginTop: '2rem' }}>
+      <p>&copy; 2025 Library App</p>
+    </footer>
+  );
 }
+
+export default Footer;

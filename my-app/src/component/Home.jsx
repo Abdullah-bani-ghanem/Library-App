@@ -1,14 +1,16 @@
-import React from 'react'
-import Header from './Header'
-import Main from './Main'
-import Footer from './Footer'
-export default function Home() {
+import React from 'react';
+import Header from './Header';
+import Main from './Main';
+import Footer from './Footer';
+
+function Home({ books }) {
   return (
-    <div style={{height:"100vh"}}> 
-      <Header/>
-      <Main/>
-      <Footer/>
-    
+    <div>
+      <Header />
+      <Main books={books} />
+      <Footer />
     </div>
-  )
+  );
 }
+
+export default Home;
